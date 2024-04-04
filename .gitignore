@@ -1,0 +1,4 @@
+*.ipynb
+*.csv
+/.idea
+api_key.py
