@@ -33,6 +33,6 @@ class DNSAPI(SecurityTrailsBase):
                 return df
         return None
 
-    def dns_bot(self, domain):
+    def get_current_dns(self, domain):
         dns_records = self.list_dns_records(domain)
         return self.process_dns_records(dns_records)
